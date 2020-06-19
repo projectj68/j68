@@ -73,7 +73,6 @@ a {
   transform: translateY(-8px);
 }
 
-
 header {
   height: 75px;
   width: 100%;
@@ -116,7 +115,6 @@ header {
 }
 
 .menu-icon {
-  
   color: white;
   float: right;
   font-size: 25px;
