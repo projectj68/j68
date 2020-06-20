@@ -122,11 +122,6 @@ header {
   display: none;
 }
 
-p {
-	text-align: justify;
-	font-family: Arial;
-}
-
 .kotak {
   max-width: 1170px;
   width: 100%;
@@ -194,6 +189,8 @@ filter: alpha(opacity=100);
   margin-top: 15px;
   font-size: 15px;
   color: #b3aeb5;
+  text-align: justify;
+  font-family: Arial;
 }
 
 .ndisor-wrapper{
