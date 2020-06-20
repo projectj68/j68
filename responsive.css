@@ -12,6 +12,11 @@
   .heading h2 {
     font-size: 20px;
   }
+
+  .cara {
+    width: 45%;
+    margin-bottom: 25px;
+  }
 }
 
 /* Untuk Smartphone */
@@ -42,7 +47,11 @@
     width: 100%;
   }
   
-    .lesson {
+  .lesson {
+    width: 100%;
+  }
+
+  .cara {
     width: 100%;
   }
   
