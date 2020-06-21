@@ -19,18 +19,18 @@
   }
   
   .about-img img{
-    width: 430px;
-    height: 242px;
+    width: 50%;
+    height: 50%;
   }
   
   .slider {
-    width: 525px;
-    height: 300px;
+    width: 50%;
+    height: 50%;
   }
 
   .slider figure img {
-    width: 525px;
-    height: 300px;
+    width: 50%;
+    height: 50%;
   }
 
   #left {
