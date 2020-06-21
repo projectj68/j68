@@ -96,17 +96,17 @@
   }
   
   .slider {
-    width: 450px;
-    height: 200px;
+    width: 525px;
+    height: 300px;
   }
 
   .slider figure img {
-    width: 450px;
-    height: 225px;
+    width: 600px;
+    height: 300px;
   }
 
   .about-img img{
-    width: 415px;
-    height: 230px;
+    width: 430px;
+    height: 242px;
   }
 }
