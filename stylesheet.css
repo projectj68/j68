@@ -177,58 +177,86 @@ img:hover {
   padding-right: 5%;
   background-color: #f7f7f7;
   text-align: center;
+ 
+}
+
+.heading {
   padding-top: 30px;
-  
+  padding-bottom: 30px;
+  color: #5f5d60;
 }
 
 .heading h3 {
-    text-align: center;
-    color: #080829;
+  text-align: center;
+  color: #080829;
 
 }
 .lesson {
   float: left;
   width: 20%;
-  margin-top: 30px;
 }
 
 .lesson-icon {
   position: relative;
+  
 }
 
 .lesson-icon p {
-  width: 50%;
-  display: inline-block;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  font-family: "Verdana";
+  color: #5f5d60;
+  font-weight: bold;
   font-size: 15px;
+ 
  
 }
 
 .text-contents {
   width: 80%;
   display: inline-block;
-  font-size: 15px;
+  margin-top: 45px;
+  font-size: 14px;
   color: #b3aeb5;
-  text-align: center;
   font-family: "Verdana";
 }
 
 .ndisor-wrapper{
   width: 100%;
-  height: 400px;
+  height: 600px;
   margin: 0 auto;
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 5%;
   padding-right: 5%;
-  text-align: center;
-  color: #080829;
+  text-align: left;
+  color: #757474;
+}
+
+
+#left {
+  width: 45%;
+  height: 250px;
+  float: left;
 }
 
 .tentang{
   margin-top: 30px;
+  padding-top: 50px;
 	font-size: 14px;
 	font-family: "Verdana";
-  color: #080829 ;
+  
+}
+
+#right {
+  width: 45%;
+  height: 300px;
+  float: left;
+}
+
+.about-img {
+  position : absolute;
 }
 
 .middle-wrapper {
@@ -355,46 +383,51 @@ hr {
 
 .middle-two-wrapper {
   width: 100%;
-  height: 450px;
-  margin: 0 auto;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  /*background-color: #F5F5F5;*/
+  height: 400px;
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #ffffff;
   text-align: center;
 }
 
+/*.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  
+}*/
+
 .middle-two-wrapper h3 {
-   text-align: center;
+  text-align: center;
   color: #080829;
 }
 
 .cara {
   float: left;
   width: 25%;
-  margin-top: 30px;
+ 
 }
 
 .illustrasi {
   position: relative;
+  padding-bottom: 30px
 }
 
-.illustrasi img {
-  max-width: 80%;
-}
 
 .illustrasi p {
   position: absolute;
-  padding-top: 5px;
+  top: 90%;
   width: 100%;
   font-family: "Verdana";
   font-weight: bold;
-  font-size: 16px;
+  font-size: 15px;
+  color: #5f5d60;
 }
 
 .text {
-  width: 60%;
+  width: 80%;
   display: inline-block;
-  margin-top: 50px;
+  margin-top: 35px;
   font-size: 14px;
   font-family: "Verdana";
   color: #b3aeb5;
