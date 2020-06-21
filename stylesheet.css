@@ -233,13 +233,13 @@ img:hover {
   width: 45%;
   height: 250px;
   float: left;
+  text-align: justify;
 }
 
 .tentang{
   padding-top: 50px;
 	font-size: 14px;
 	font-family: "Verdana";
-	text-align: justify;
 }
 
 #right {
