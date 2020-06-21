@@ -2,7 +2,7 @@
 @media all and (max-width: 1000px) {
   .lesson {
     width: 50%;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
   }
   
   .top-wrapper h1 {
@@ -14,8 +14,17 @@
   }
 
   .cara {
-    width: 45%;
+    width: 50%;
     margin-bottom: 25px;
+  }
+
+  #left {
+    width: 50%;
+  }
+
+  #right {
+    width: 50%;
+    
   }
 }
 
@@ -53,6 +62,18 @@
 
   .cara {
     width: 100%;
+  }
+
+  .ndisor-wrapper {
+    height: 800px;
+  }
+
+  #left {
+    width: 100%;
+  }
+
+  #right {
+    width: 100%; 
   }
   
 }
