@@ -26,6 +26,10 @@
     width: 50%;
     
   }
+  
+  .about-img {
+    width: 50%;
+  }
 }
 
 /* Untuk Smartphone */
@@ -76,4 +80,7 @@
     width: 100%; 
   }
   
+   .about-img {
+    width: 100%;
+  }
 }
