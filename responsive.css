@@ -95,14 +95,14 @@
     width: 100%; 
   }
   
-  .slider {
-    width: 430px;
-    height: 180px;
+   .slider {
+    width: 450px;
+    height: 200px;
   }
 
   .slider figure img {
-    width: 430px;
-    height: 180px;
+    width: 350px;
+    height: 200px;
   }
 
   .about-img img{
