@@ -17,6 +17,16 @@
     width: 50%;
     margin-bottom: 25px;
   }
+  
+  .slider {
+    width: 525px;
+    height: 300px;
+  }
+
+  .slider figure img {
+    width: 600px;
+    height: 300px;
+  }
 
   #left {
     width: 50%;
@@ -83,5 +93,14 @@
   
    .about-img {
     width: 100%;
+  }
+  .slider {
+    width: 350px;
+    height: 200px;
+  }
+
+  .slider figure img {
+    width: 400px;
+    height: 200px;
   }
 }
