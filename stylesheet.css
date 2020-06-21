@@ -249,7 +249,7 @@ img:hover {
 }
 
 .about-img {
-  position : absolute;
+  position : relative;
 }
 
 .middle-wrapper {
