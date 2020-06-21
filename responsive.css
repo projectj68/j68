@@ -30,6 +30,10 @@
   .about-img {
     width: 50%;
   }
+  
+  .slider figure {
+    width: 50%;
+  }
 }
 
 /* Untuk Smartphone */
@@ -81,6 +85,9 @@
   }
   
    .about-img {
+    width: 100%;
+  }
+   .slider figure {
     width: 100%;
   }
 }
