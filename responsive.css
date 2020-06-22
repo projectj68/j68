@@ -95,14 +95,15 @@
     width: 100%; 
   }
   
-   .slider {
+  .slider {
     width: 450px;
-    height: 200px;
+    height: 250px;
+    text-align: center;
   }
 
   .slider figure img {
-    width: 350px;
-    height: 200px;
+    width: 450px;
+    height: 250px;
   }
 
   .about-img img{
