@@ -31,7 +31,7 @@
   }
 
   .slider {
-    width: 525px;
+    width: 50%;
     height: 300px;
   }
 
@@ -120,12 +120,12 @@
   }
   
   .slider {
-    width: 450px;
+    width: 50%;
     height: 250px;
   }
 
   .slider figure img {
-    width: 450px;
+    width: 50%;
     height: 250px;
   }
 
