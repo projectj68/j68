@@ -1,0 +1,261 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .lesson {
+    width: 50%;
+    margin-bottom: 25px;
+  }
+  
+  .content h1 {
+    font-size: 32px;
+    margin: -5px 15px;
+  }
+
+  .content h3 {
+    font-size: 16px;
+    margin: 27px 15px;
+  }
+
+  .content p {
+    font-size: 16px;
+    margin: 29px 15px;
+  }
+
+  
+  .heading h2 {
+    font-size: 20px;
+    margin: 0 30px;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 5px 45px;
+  }
+
+  .btn-wrapper {
+    margin: 8px 0;
+  }
+
+  .btn-wrapper a {
+    width: 150px;
+    margin: 7px 14px;
+  }
+
+  .vacation {
+    height : 128px;
+  }
+
+  .isi {
+    width: 31%;
+    padding-left: 30px;
+    margin-bottom: 2px;  
+  }
+
+  .isi-content p {
+    margin-top: 8px;
+    margin-bottom: 2px;
+    padding-left: 15px
+  }
+  
+  input {
+    padding-left: 5px;
+    margin: 0px 13px;
+  }
+
+  .cara {
+    width: 50%;
+    margin: 25px 0px;
+  }
+
+  .illustrasi img{
+    width: 100px;
+    height: 70px;
+  }
+
+  .slider {
+    width: 525px;
+    height: 300px;
+  }
+
+  .slider figure img {
+    width: 600px;
+    height: 300px;
+  }
+
+  .about-img img{
+    width: 430px;
+    height: 242px;
+  }
+
+  #left {
+    width: 50%;
+  }
+
+  #right {
+    width: 50%;
+    
+  }
+
+  .text {
+    width: 65%;
+  }
+
+  .kotak-footer {
+    width: 80%;
+  }
+
+  .column h4 {
+    font-size: 12px;
+  }
+
+  .column h3 {
+    font-size: 12px;
+    margin-left: 20px;  
+  }
+
+  .button {
+    font-size: 12px;
+  }
+
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .top-wrapper {
+    text-align: left;
+  }
+  
+  .header-right {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+
+  }
+  
+  .content h1 {
+    text-align: left;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 0px 30px;
+  }
+
+  .content h3 {
+    text-align: left;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 15px 30px;
+  }
+  
+  .content p {
+    text-align: left;
+    font-size: 11px;
+    line-height: 15px;
+    margin: 30px 30px;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 5px 45px;
+  }
+
+  .btn-wrapper {
+    margin: 8px 0px;
+  }
+
+  .btn-wrapper a {
+    width: 150px;
+    margin: 1px auto;
+  }
+
+  .vacation {
+    height: 185px;
+
+  }
+
+  .isi {
+    width: 50%;
+    padding-left: 13px;
+    margin-bottom: 7px;  
+  }
+
+  .isi-content p {
+    margin-top: 9px;
+    margin-bottom: 2px;
+    font-size: 11px;
+    padding-left: 15px;
+  }
+
+  input {
+    width: 127px;
+    margin: 0px 0px;
+  }
+  
+  .lesson {
+    width: 100%;
+  }
+
+  .cara {
+    width: 100%;
+  }
+
+  .ndisor-wrapper {
+    height: 800px;
+  }
+
+  #left {
+    width: 100%;
+  }
+
+  #right {
+    width: 100%;
+    
+  }
+
+  .slider {
+    width: 380px;
+    height: 225px;
+  }
+
+  .slider figure img {
+    width: 380px;
+    height: 225px;
+  }
+
+  .about-img img{
+    width: 370px;
+    height: 210px;
+    text-align: center;
+  }
+  
+  .footer-wrapper {
+    height: 500px;
+  }
+
+  .column h3{
+    text-align: justify;
+    margin-left: 20px;
+    margin-top: 15px;
+  }
+
+  .column img {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 10px;
+  }
+
+  .twitter {
+    margin-bottom: 20px;
+  }
+  
+  .column {
+    text-align: center;
+    width: 100%;
+  }
+  
+    .heading-footer h2{
+    font-size: 18px;
+    text-align: left;
+    margin: 10px 0 0 15px;
+  }
+}

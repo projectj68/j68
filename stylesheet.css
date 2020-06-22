@@ -1,0 +1,581 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Verdana";
+}
+
+a {
+  text-decoration: none;
+}
+
+h2{
+	font-family: sans-serif;
+	font-weight: normal;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 520px 0 128px 0;
+  background-image: url(danautoba2.jpg);
+  background-size: cover;
+  color: white;
+  position: relative;
+  
+}
+.content h1 {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: 32%;
+  opacity: 1;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+
+.content h3 {
+  position: absolute;
+  top: 40%;
+  opacity: 0.8;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.content p {
+  position: absolute;
+  top: 46%;
+  opacity: 0.9;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.vacation {
+  position: absolute;
+  top: 56%;
+  background-color: white;
+  color: #5f5d60;
+  border: 0px solid #5f5d60;
+  border-radius: 10px;
+  width: 90%;
+  height: 100px;
+  box-sizing: border-box;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.isi {
+  width: 20%;
+  float: left;
+  padding-left: 1%;
+  padding-right: 3%;
+}
+
+.isi-content {
+  width: 80%;
+  display: inline-block;
+  position: relative;
+}
+
+.isi-content p{
+  color: #5f5d60;
+  font-size: 12px;
+  font-family: "Verdana";
+  text-align: left;
+  width: 285px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 150px;
+  padding: 5px;
+  font-size: 12px;
+  font-family: "Verdana";
+  text-decoration: none;
+  color: #A1A1A1;
+  }     
+
+.btn-wrapper {
+  text-align: center;
+  margin: 8px 10px;
+  font-weight: bold;
+}
+
+.btn-wrapper a {
+  margin: 24px -42px;
+  font-size: 12px;
+  width: 190px;
+}
+
+.booking {
+  background-color: #FDB11C;
+}
+
+.btn {
+  border: 0px solid #FDB11C;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 12px 40px;
+  color: white;
+  display: inline-block;
+  opacity: 0.9;
+  border-radius: 10px;
+  text-align: center;
+  transition: 300ms;
+}
+
+.btn:hover {
+  opacity: 1;
+  transform: translateY(-8px);
+}
+
+header {
+  height: 75px;
+  width: 100%;
+  background: rgba(8, 8, 41, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  margin: 0 auto;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  color: rgba(255, 255, 255, 1);
+  font-weight: bold;
+  font-size: 12px;
+  font-family: "Verdana";
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  color: rgba(253, 177, 28, 1);
+  font-weight: bold;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+.kotak {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.rotate {
+  animation-name: rotate ;
+  animation-duration: 5s;
+  animation-play-state: running;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  opacity: 1.0;filter: alpha(opacity=50);
+  width:200px;
+  height:200px;
+  border: 3px solid #080829;
+  border-radius: 10px;
+}
+
+img:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+}
+
+@keyframes rotate{
+  10% {transform:rotateY(36deg)}
+  20% {transform:rotateY(72deg)}
+  30% {transform:rotateY(108deg)}
+  40% {transform:rotateY(144deg)}
+  50% {transform:rotateY(180deg)}
+  60% {transform:rotateY(216deg)}
+  70% {transform:rotateY(252deg)}
+  80% {transform:rotateY(288deg)}
+  90% {transform:rotateY(324deg)}
+  100% {transform:rotateY(360deg)}
+}
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+ 
+}
+
+.heading {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.heading h3 {
+  text-align: center;
+  color: #080829;
+
+}
+.lesson {
+  float: left;
+  width: 20%;
+}
+
+.lesson-icon {
+  position: relative;
+  
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  font-family: "Verdana";
+  color: #5f5d60;
+  font-weight: bold;
+  font-size: 15px;
+ 
+ 
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 45px;
+  font-size: 14px;
+  color: #b3aeb5;
+  font-family: "Verdana";
+}
+
+.ndisor-wrapper{
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: left;
+  color: #757474;
+}
+
+#left {
+  width: 45%;
+  height: 250px;
+  float: left;
+}
+
+.tentang{
+  padding-top: 50px;
+	font-size: 14px;
+	font-family: "Verdana";
+  text-align: justify;
+}
+
+#right {
+  width: 45%;
+  height: 300px;
+  float: left;
+}
+
+.about-img {
+  position : absolute;
+}
+
+.middle-wrapper {
+  width: 100%;
+  height: 600px;
+  margin: 0 auto;
+  background-color: #F5F5F5;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.middle-wrapper h3 {
+  text-align: center;
+  color: #080829;  
+}
+
+hr {
+  width: 250px;
+  border-top: 3px solid #080829;
+  border-radius: 15px;
+}
+
+.slider{
+  overflow: hidden;
+  margin: 30px auto;
+  width: 700px;
+  height: 400px;
+}
+ 
+.slider figure div{
+  width: 20%;
+  float: left;
+}
+ 
+.slider figure img{
+  width: 800px;
+  height: 400px;
+  float: left;
+}
+ 
+.slider figure{
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 20s slidy infinite;
+}
+ 
+@keyframes slidy{
+  0%{
+    left: 0%
+  }
+ 
+  10%{
+    left: 0%;
+  }
+ 
+  12%{
+    left: -100%;
+  }
+ 
+  22%{
+    left: -100%;
+  }
+ 
+  24%{
+    left: -200%;
+  }
+ 
+  34%{
+    left: -200%;
+  }
+ 
+  36%{
+    left: -300%;
+  }
+ 
+  46%{
+    left: -300%;
+  }
+ 
+  48%{
+    left: -400%;
+  }
+ 
+  58%{
+    left: -400%;
+  }
+ 
+  60%{
+    left: -300%;
+  }
+ 
+  70%{
+    left: -300%;
+  }
+ 
+  72%{
+    left: -200%;
+  }
+ 
+  82%{
+    left: -200%;
+  }
+ 
+  84%{
+    left: -100%;
+  }
+ 
+  94%{
+    left: -100%;
+  }
+ 
+  96%{
+    left: 0%;
+  }
+ 
+  100%{
+    left: 0%;
+  }
+}
+
+.middle-two-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.middle-two-wrapper h3 {
+  text-align: center;
+  color: #080829;
+}
+
+.cara {
+  float: left;
+  width: 25%; 
+}
+
+.illustrasi {
+  position: relative;
+}
+
+.illustrasi p {
+  position: absolute;
+  top: 90%;
+  width: 100%;
+  font-family: "Verdana";
+  font-weight: bold;
+  font-size: 14px;
+  color: #5f5d60;
+}
+
+.text {
+  width: 80%;
+  display: inline-block;
+  margin-top: 35px;
+  font-size: 14px;
+  font-family: "Verdana";
+  color: #b3aeb5;
+}
+
+/*CSS Bagian Footer*/
+/*======================*/
+.kotak-footer {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.footer-wrapper {
+  height: 260px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #080829;
+  text-align: center;
+  opacity: 0.9;
+
+}
+
+.heading-footer {
+  color: #ffff;
+  border-bottom: 3px solid #fff;
+}
+
+.heading-footer h3 {
+  font-family: "Verdana";
+  font-weight: normal;
+  text-align: center;
+  color: #fff;
+  margin: 15px 0px;
+}
+
+.columns{
+  padding-top: 15px;
+}
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+.column img {
+  padding-right: 175px;
+}
+
+.column h4 {
+  font-family: "Verdana";
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  color: #fff;
+  margin-top: 0px;
+  padding-right: 0px;
+}
+
+.column p {
+  font-family: "Verdana";
+  font-size: 12px;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.button {
+  padding: 8px 16px;
+  color: white;
+  display: inline-block;
+  opacity: 0.7;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.button:active {
+  position: relative;
+  top: 0.5px;
+}
+
+.button:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.facebook{
+  background-color: #3b5998;
+  margin-bottom: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
