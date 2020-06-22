@@ -439,6 +439,7 @@ footer {
 	background-color: #192a56;
 	text-align: center;
 	opacity: 0.9;
+	position:fixed;
 }
 
 .columns{
