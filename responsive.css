@@ -48,7 +48,7 @@
     width: 50%; 
   }  
   
-  .container {
+  .kotak-footer {
 		text-align: left;
 		width: 100%;
 	}
@@ -66,7 +66,7 @@
 		margin-left: 20px;
 	}
 
-  .btn {
+  .button {
 		font-size: 14px;
 	}
 }
@@ -153,7 +153,7 @@
 		width: 100%;
 	}
   
-  	.heading h2{
+  	.heading-footer h2{
 		font-size: 18px;
 		text-align: left;
 		margin: 10px 0 0 15px;
