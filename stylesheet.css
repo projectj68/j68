@@ -85,6 +85,11 @@ h2{
   transform: translateY(-8px);
 }
 
+.btn:active {
+	position: relative;
+	top: 0.5px;
+}
+
 header {
   height: 75px;
   width: 100%;
@@ -183,6 +188,14 @@ img:hover {
   padding-top: 30px;
   padding-bottom: 30px;
   color: #5f5d60;
+}
+
+.heading h2 {
+	font-weight: normal;
+	font-size: 32px;
+	margin-bottom: ;
+	text-align: center;
+	color: #fff;
 }
 
 .heading h3 {
@@ -414,4 +427,51 @@ hr {
   font-size: 14px;
   font-family: "Verdana";
   color: #b3aeb5;
+}
+
+footer {
+	font-family: Raleway;
+}
+
+.footer-wrapper {
+	height: 300px;
+	padding-bottom: 50px;
+	background-color: #192a56;
+	text-align: center;
+	opacity: 0.9;
+}
+
+.columns{
+	padding-top: 15px;
+}
+.column {
+	float: left;
+	width: 33.33%;
+}
+
+.column h2 {
+	font-size: 14px;
+	letter-spacing: 4px;
+	margin-bottom: 15px;
+	color: #fff;
+}
+
+.column h3 {
+	font-size: 12.5px;
+	color: white;
+	margin-bottom: 8px;
+	letter-spacing: 0.5px;
+}
+
+.fa {
+	margin-right: 5px;
+}
+
+.facebook{
+	background-color: #3b5998;
+	margin-bottom: 10px;
+}
+
+.twitter {
+	background-color: #55acee;
 }
