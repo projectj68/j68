@@ -5,67 +5,26 @@
     margin-bottom: 25px;
   }
   
-  .content h1 {
+  .top-wrapper h1 {
     font-size: 32px;
-    margin: -5px 15px;
   }
-
-  .content h3 {
-    font-size: 16px;
-    margin: 27px 15px;
-  }
-
-  .content p {
-    font-size: 16px;
-    margin: 29px 15px;
-  }
-
   
   .heading h2 {
     font-size: 20px;
-    margin: 0 30px;
-  }
-  
-  .btn {
-    width: 100%;
-    padding: 5px 45px;
-  }
-
-  .btn-wrapper {
-    margin: 8px 0;
-  }
-
-  .btn-wrapper a {
-    width: 150px;
-    margin: 7px 14px;
-  }
-
-  .vacation {
-    height : 128px;
-  }
-
-  .isi {
-    width: 31%;
-    padding-left: 30px;
-    margin-bottom: 2px;  
-  }
-
-  .isi-content p {
-    margin-top: 8px;
-    margin-bottom: 2px;
-    padding-left: 15px
-  }
-  
-  input {
-    padding-left: 5px;
-    margin: 0px 13px;
+    text-align: justify;
+		margin-left: 15px;
   }
 
   .cara {
     width: 50%;
-    margin: 25px 0px;
+    margin-bottom: 25px;
   }
-
+  
+  .about-img img{
+    width: 430px;
+    height: 242px;
+  }
+  
   .illustrasi img{
     width: 90px;
     height: 80px;
@@ -81,41 +40,40 @@
     height: 300px;
   }
 
-  .about-img img{
-    width: 430px;
-    height: 242px;
-  }
-
   #left {
     width: 50%;
   }
 
   #right {
-    width: 50%;
-    
-  }
+    width: 50%; 
+  }  
+  
+  .container {
+		text-align: left;
+		width: 100%;
+	}
 
-  .text {
-    width: 65%;
-  }
+	.column h2 {
+		font-size: 14px;
+	}
 
-  .kotak-footer {
-    width: 80%;
-  }
+	.column h3 {
+		font-size: 11px;
+		margin-left: 20px;	
+	}
 
-  .column h4 {
-    font-size: 12px;
-  }
+	.column img {
+		margin-left: 20px;
+	}
 
-  .column h3 {
-    font-size: 12px;
-    margin-left: 20px;  
-  }
+  .btn {
+		font-size: 14px;
+	}
 
-  .button {
-    font-size: 12px;
+  .footer-wrapper {
+    flex-direction: column;
+    margin: 0 auto;
   }
-
 }
 
 /* Untuk Smartphone */
@@ -130,64 +88,20 @@
 
   .menu-icon {
     display: block;
-
   }
   
-  .content h1 {
-    text-align: left;
-    font-size: 20px;
-    line-height: 28px;
-    margin: 4px 30px;
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
   }
-
-  .content h3 {
-    text-align: left;
+  
+  .top-wrapper p {
     font-size: 14px;
     line-height: 20px;
-    margin: 15px 30px;
-  }
-  
-  .content p {
-    text-align: left;
-    font-size: 12px;
-    line-height: 20px;
-    margin: 25px 30px;
   }
 
   .btn {
     width: 100%;
-    padding: 5px 45px;
-  }
-
-  .btn-wrapper {
-    margin: 8px 0px;
-  }
-
-  .btn-wrapper a {
-    width: 150px;
-    margin: 1px auto;
-  }
-
-  .vacation {
-    height: 185px;
-
-  }
-
-  .isi {
-    width: 50%;
-    padding-left: 13px;
-    margin-bottom: 7px;  
-  }
-
-  .isi-content p {
-    margin-top: 7px;
-    margin-bottom: 2px;
-    font-size: 11px;
-    padding-left: 2px;
-  }
-
-  input {
-    margin: 0px 0px;
   }
   
   .lesson {
@@ -207,10 +121,9 @@
   }
 
   #right {
-    width: 100%;
-    
+    width: 100%; 
   }
-
+  
   .slider {
     width: 450px;
     height: 250px;
@@ -222,39 +135,39 @@
   }
 
   .about-img img{
-    width: 450px;
-    height: 250px;
-    text-align: center;
-  }
-  
-  .footer-wrapper {
-    height: 500px;
+    width: 400px;
+    height: 200px;
   }
 
-  .column h3{
-    text-align: justify;
-    margin-left: 20px;
-    margin-top: 15px;
-  }
+	.column h3{
+		text-align: justify;
+		margin-left: 20px;
+		margin-top: 15px;
+	}
 
-  .column img {
-    padding-left: 0px;
-    padding-right: 0px;
-    margin-bottom: 10px;
-  }
-
-  .twitter {
-    margin-bottom: 20px;
-  }
+	.twitter {
+		margin-bottom: 15px;
+	}
   
   .column {
-    text-align: center;
+		text-align: center;
+		width: 100%;
+	}
+
+  .footer-wrapper {
+    flex-direction: column;
+    margin: 0 auto;
+    height: 600px;
     width: 100%;
   }
   
-    .heading-footer h2{
-    font-size: 18px;
-    text-align: left;
-    margin: 10px 0 0 15px;
+  .heading h2{
+		font-size: 18px;
+		text-align: left;
+		margin: 10px 0 0 15px;
+	}
+
+  footer {
+    margin: 375px 0;
   }
 }
