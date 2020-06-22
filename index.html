@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
@@ -15,7 +14,7 @@
         <div class="header-left">
           <img class="logo" src="logoweb.png">
         </div>
-       <span class="menu-icon"><img src="menubar3.png" alt=""></span>
+       <span class="menu-icon"><a href="#"><img src="menubar3.png" alt=""></a></span>
         <div class="header-right">
           <a href="#">Wisata</a>
           <a href="#">Tentang</a>
@@ -27,11 +26,45 @@
     </header>
      <div class="top-wrapper">
       <div class="container">
-        <h1>Ayo Liburan Seru Bersama Xplore Indonesia </h1>
-        <h3>Temukan destinasi wisata favorit Anda dengan perjalanan terbaik dari kami</h3>
-        <p>*Ada harga spesial untuk bulan ini, buruan pesan sekarang!</p>
-        <div class="btn-wrapper">
-          <a href="#" class="btn booking">Pesan Sekarang</a>
+        <div class="content">
+          <h1>Ayo Liburan Seru Bersama Xplore Indonesia </h1>
+          <h3>Temukan destinasi wisata favorit Anda dengan perjalanan terbaik dari kami</h3>
+          <p>*Ada harga spesial untuk bulan ini, buruan pesan sekarang!</p>
+        </div>
+        <div class="vacation">
+          <div class="vacation-input">
+            <div class="isi">
+              <div class="isi-content">
+                <p>Liburan Kemana ?</p>
+                <input type="text" placeholder="Ketik di sini ...">
+              </div>
+            </div>
+            <div class="isi">
+              <div class="isi-content">
+                <p>Check-in</p>
+                <input type="date" placeholder="dd-mm-yy">
+              </div>
+            </div>
+            <div class="isi">
+              <div class="isi-content">
+                <p>Check-out</p>
+                <input type="date" placeholder="dd-mm-yy">
+              </div>
+            </div>
+            <div class="isi">
+              <div class="isi-content">
+                <p>Jumlah orang</p>
+                <input type="number">
+              </div>
+            </div>
+            <div class="isi">
+              <div class="isi-content">
+                <div class="btn-wrapper">
+                  <a href="#" class="btn booking">Pesan Sekarang</a>
+                </div>
+              </div>
+            </div>
+          </div> 
         </div>
       </div>
     </div>
@@ -137,13 +170,13 @@
           <h3>Cara Booking</h3>
           <hr>
         </div>
-          <div class="cara-booking">
-            <div class="cara">
-              <div class="illustrasi">
-                <img src="calendar.png" alt="">
-                <p>Pilih Hari & Tanggal</p>
-              </div>
-              <p class="text">Pilih hari, tanggal dan bulan liburan untuk check in dan check out.</p>
+        <div class="cara-booking">
+           <div class="cara">
+            <div class="illustrasi">
+              <img src="calendar.png" alt="">
+              <p>Pilih Hari & Tanggal</p>
+            </div>
+              <p class="text">Pilih tanggal dan bulan liburan untuk check in dan check out.</p>
             </div>
             <div class="cara">
               <div class="illustrasi">
@@ -166,34 +199,38 @@
               </div>
               <p class="text">Kami akan menjemput anda di hotel dan siap mengantarkan anda ke tujuan wisata.</p>
             </div>
+            <div class="clear"></div>
           </div>
-       </div>
-    </div>
-	  <footer>
-			<div class="footer-wrapper">
-				<div class="container">
-					<div class="heading">
-						<h2>Kesempatan terbatas, ayo gabung dan jelajahi Indonesia!</h2>
-					</div>
-					<div class="columns">
-						<div class="column">
-							<h2>FOLLOW US</h2>
-							<div class="button-wrapper">
-								<a href="" class="but facebook"><span class="fa fa-facebook"></span>Our Facebook</a>
-								<br>
-								<a href="" class="but twitter"><span class="fa fa-twitter"></span>Our Twitter</a>
-							</div>
-						</div>
-						<div class="column">
-							<h3>Imperium Square Lt. 2 Blok 13,</h3>
-							<h3>Metropolitan Kuningan Super Blok Kav. No. 1</h3>
-							<h3>Jl. HR Rasuna Said, Jakarta 12980.</h3>
-							<h3>Mail: info@xploreindonesia.com</h3>
-							<h3>Phone: (021)8370 7070/0857 1010 1010</h3>
-						</div>
-					</div>
-				</div>
-			</div>
-		</footer>
+      </div>
+    </div>	
+
+    <footer>
+      <div class="footer-wrapper">
+        <div class="kotak-footer">
+          <div class="heading-footer">
+            <h3>Kesempatan terbatas, ayo gabung dan jelajahi Indonesia!</h3>
+          </div>
+          <div class="columns">
+            <div class="column">
+              <img src="logoweb.png">
+            </div>
+            <div class="column">
+              <h4>FOLLOW US</h4>
+              <div class="button-wrapper">
+                <a href="#" class="button facebook"><span class="fa fa-facebook"></span>Our Facebook</a>
+                <br>
+                <a href="#" class="button twitter"><span class="fa fa-twitter"></span>Our Twitter</a>
+              </div>
+            </div>
+            <div class="column">
+              <p>Imperium Square Lt. 2 Blok 13, Metropolitan <br> Kuningan Super Blok Kav. No. 1 <br>
+              Jl. HR Rasuna Said, Jakarta 12980. <br>
+              Mail: info@xploreindonesia.com <br>
+              Phone: (021)8370 7070/0857 1010 1010</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
