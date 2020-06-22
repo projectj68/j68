@@ -190,14 +190,6 @@ img:hover {
   color: #5f5d60;
 }
 
-.heading h2 {
-	font-weight: normal;
-	font-size: 32px;
-	margin-bottom: ;
-	text-align: center;
-	color: #fff;
-}
-
 .heading h3 {
   text-align: center;
   color: #080829;
@@ -429,8 +421,11 @@ hr {
   color: #b3aeb5;
 }
 
-footer {
-	font-family: Raleway;
+/*CSS Bagian Footer*/
+/*======================*/
+.kotak-footer {
+	width: 1170px;
+	margin: 0 auto;
 }
 
 .footer-wrapper {
@@ -439,7 +434,20 @@ footer {
 	background-color: #192a56;
 	text-align: center;
 	opacity: 0.9;
-	position:fixed;
+}
+
+.heading-footer {
+	padding: 30px 0 30px 0;
+	color: #5f5d60;
+	border-bottom: 0.5px solid #eee;
+}
+
+.heading-footer h2 {
+	font-weight: normal;
+	font-size: 32px;
+	margin-bottom: ;
+	text-align: center;
+	color: #fff;
 }
 
 .columns{
@@ -462,6 +470,23 @@ footer {
 	color: white;
 	margin-bottom: 8px;
 	letter-spacing: 0.5px;
+}
+
+.button {
+	padding: 8px 16px;
+	color: white;
+	display: inline-block;
+	opacity: 0.7;
+	border-radius: 4px;
+}
+
+.button:active {
+	position: relative;
+	top: 0.5px;
+}
+
+.button:hover {
+	opacity: 1;
 }
 
 .fa {
