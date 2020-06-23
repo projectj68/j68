@@ -327,13 +327,11 @@ img:hover {
 
 .about-img {
   position : absolute;
-  padding-left: 45px;
-  padding-right: 0px;
 }
 
 .about-img img{
-  width: 480px;
-  height: 250px;
+  width: 490px;
+  height: 260px;
 }
 
 .middle-wrapper {
