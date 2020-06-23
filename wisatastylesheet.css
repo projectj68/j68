@@ -1,0 +1,37 @@
+body {
+	background: #00FFFF;
+}
+#tampilan {
+	height: 1000px;
+	width: 1000px;
+	margin: auto;
+}
+#header {
+	background: #87CEFA;
+	height: 700px
+	width: 1000px;
+	text-align: center;
+}
+#isi {
+	height: 1000px;
+	width: 1000px;
+}
+#kiri {
+	background: white;
+	height: 1000px;
+	width: 800px;
+	float: left;
+	text-align: left;
+}
+#kanan {
+	background: #7FFFD4;
+	height: 1000px;
+	width: 200px;
+	float: right;
+}
+h1, h2, h3, p, p1 {
+	margin-left: 20px;
+}
+p1 {
+	background-color: yellow;
+}
