@@ -218,13 +218,8 @@
   }
 
   .slider figure img {
-    width: 360px;
-    height: 200px;
-  }
-
-  .about-img {
-    padding-left: 30px;
-    padding-right: 0px;
+    width: 350px;
+    height: 190px;
   }
 
   .about-img img{
